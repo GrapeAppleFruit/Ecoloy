@@ -1,0 +1,29 @@
+name: Ecoloy
+version: '${project.version}'
+main: org.busch.ecoloy.Ecoloy
+api-version: 1.19
+commands:
+  givechunk:
+    description: Get a chunk.
+    usage: /givechunk
+  chunk:
+    description: Teleport to your chunk.
+    usage: /chunk
+  gift:
+    description: Gift a player the item in your hand.
+    usage: /gift (player)
+  share:
+    description: Share your chunk with a player.
+    usage: /share (player)
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+  setspawn:
+    description: Set the spawn
+    usage: /setspawn
+  kit:
+    description: Get the starter kit.
+    usage: /kit
+  unshare:
+    description: Unshare a chunk with the player.
+    usage: /unshare (player)
